@@ -15,60 +15,60 @@ sqa_criteria:
     repos:
       github.com/galaxyproject/galaxy git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-cerulean-foxhound.sh
-        container: qc.acc_gloppy-heliotrope-gerbil
+        - /usr/bin/env sh .sqa/script.grumpy-cobalt-cow.sh
+        container: qc.acc_snazzy-wheat-akita
   QC.Doc:
     repos:
       github.com/galaxyproject/galaxy find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-ecru-schnauzer.sh
-        container: qc.doc_chewy-champagne-hummingbird
+        - /usr/bin/env sh .sqa/script.snippy-seashell-rabbit.sh
+        container: qc.doc_gloppy-xanthic-hare
       github.com/galaxyproject/galaxy git:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-lavender-hippopotamus.sh
-        container: qc.doc_stealthy-khaki-terrier
+        - /usr/bin/env sh .sqa/script.whiny-ecru-foxhound.sh
+        container: qc.doc_zippy-buff-caracal
       github.com/galaxyproject/galaxy markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-amaranth-worm.sh
-        container: qc.doc_gloppy-burgundy-indri
+        - /usr/bin/env sh .sqa/script.cheeky-aqua-chinchilla.sh
+        container: qc.doc_hasty-platinum-ferret
       github.com/galaxyproject/galaxy restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-turquoise-burmese.sh
-        container: qc.doc_scaly-tan-jackal
+        - /usr/bin/env sh .sqa/script.bumpy-lemon-dhole.sh
+        container: qc.doc_muggy-bronze-mastiff
   QC.Lic:
     repos:
       github.com/galaxyproject/galaxy licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-pumpkin-barracuda.sh
-        container: qc.lic_zippy-coral-millipede
+        - /usr/bin/env sh .sqa/script.scummy-red-barb.sh
+        container: qc.lic_flaky-white-turkey
   QC.Sec:
     repos:
       github.com/galaxyproject/galaxy bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-amethyst-uguisu.sh
-        container: qc.sec_tasty-blue-hare
+        - /usr/bin/env sh .sqa/script.wimpy-ruby-tetra.sh
+        container: qc.sec_surly-olive-turkey
   QC.Sty:
     repos:
       github.com/galaxyproject/galaxy flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-violet-hyena.sh
-        container: qc.sty_droopy-beige-olm
+        - /usr/bin/env sh .sqa/script.messy-brown-chamois.sh
+        container: qc.sty_hazy-cinnamon-lobster
       github.com/galaxyproject/galaxy hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-yellow-hare.sh
-        container: qc.sty_flaky-black-serval
+        - /usr/bin/env sh .sqa/script.stuffy-olivine-lion.sh
+        container: qc.sty_crabby-amethyst-mist
       github.com/galaxyproject/galaxy jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-cobalt-worm.sh
-        container: qc.sty_craggy-russet-giraffe
+        - /usr/bin/env sh .sqa/script.lousy-apricot-turkey.sh
+        container: qc.sty_wiggy-razzmatazz-quoll
       github.com/galaxyproject/galaxy stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-purple-caterpillar.sh
-        container: qc.sty_crabby-plum-peccary
+        - /usr/bin/env sh .sqa/script.scanty-olivine-wombat.sh
+        container: qc.sty_foggy-ruby-ostrich
   QC.Ver:
     repos:
       github.com/galaxyproject/galaxy get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-orange-albatross.sh
-        container: qc.ver_cranky-maroon-woodpecker
+        - /usr/bin/env sh .sqa/script.sickly-brown-deer.sh
+        container: qc.ver_dorky-tangerine-bulldog
 timeout: 1800

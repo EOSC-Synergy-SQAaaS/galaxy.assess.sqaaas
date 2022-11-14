@@ -1,4 +1,4 @@
 (
-cd github.com/galaxyproject/galaxy &&
+cd github.com/orviz/galaxy &&
     rst-lint --level warning --format json .
 )

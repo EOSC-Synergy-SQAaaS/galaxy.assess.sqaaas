@@ -1,4 +1,4 @@
 (
 cd github.com/galaxyproject/galaxy &&
-    hadolint Dockerfile
+    hadolint */Dockerfile*
 )

@@ -1,4 +1,4 @@
 (
-cd github.com/orviz/galaxy &&
+cd github.com/galaxyproject/galaxy &&
     git rev-parse --is-inside-work-tree
 )

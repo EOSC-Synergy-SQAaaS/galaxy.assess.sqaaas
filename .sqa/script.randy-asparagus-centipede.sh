@@ -1,4 +1,4 @@
 (
-cd github.com/orviz/galaxy &&
+cd github.com/galaxyproject/galaxy &&
     licensee detect . --confidence 60 --json
 )
